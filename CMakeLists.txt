@@ -77,7 +77,7 @@ message(STATUS "ENABLE_WS281XPWM = " ${ENABLE_WS281XPWM})
 option(ENABLE_X11 "Enable the X11 grabber" ${DEFAULT_X11})
 message(STATUS "ENABLE_X11 = " ${ENABLE_X11})
 
-option(ENABLE_QT5 "Enable QT5" OFF)
+option(ENABLE_QT5 "Enable QT5" ON)
 message(STATUS "ENABLE_QT5 = " ${ENABLE_QT5})
 
 option(ENABLE_TESTS "Compile additional test applications" OFF)
